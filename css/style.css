@@ -22,13 +22,11 @@ nav{
 }
 
 .nav-col{
-    font-size: 30px;
     flex-basis: 15%;
     margin: 20px 0;
     /* DEBUG */
     border: 1px solid black ;
     font-size: 18px;
-    
     background-color: green;
 }
 
@@ -77,7 +75,8 @@ a{
     flex-basis: 50%;
     /* DEBUG */
     height: 250px;
-    background-color: darkmagenta; 
+    background-color: darkmagenta;
+    border: 1px solid black;
 }
 
 /* main */
@@ -125,6 +124,70 @@ a{
     margin: 20px 0;
     flex-basis: 70%;
     /* DEBUG */
-    height: 400px;
+    height: 350px;
     background-color: darkgreen;
+    border: 1px solid black;
+}
+
+/* footer section */
+.footer-back-color{
+    background-color: #0f0f0f;
+    border-bottom: 1px solid darkgray;
+}
+
+/* info section */
+#info-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer-col{
+    flex-basis: 10%;
+    /* DEBUG */
+    height: 250px;
+    border: 1px solid black;
+    background-color: darkgray;
+    margin: 10px 0;
+}
+
+.footer-col-large{
+    flex-basis: 30%;
+    background-color: darkcyan;
+}
+
+/* section footer logo login */
+#last-container{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+}
+
+.last-col{
+    font-size: 30px;
+    flex-basis: 35%;
+    margin-top: 20px;
+    /* DEBUG */
+    background-color: limegreen;
+}
+
+#logo-footer{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+#footer-button{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+}
+
+#footer-button button{
+    font-size: ;
+    font-size: 18px;
+    padding: 2px;
 }
