@@ -1,0 +1,68 @@
+/* regole generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* stili di pagina */
+
+body{
+    font-family: Helvetica, sans-serif;
+}
+
+/* nav bar */
+
+nav{
+    background-color: rgb(7, 83, 234);
+    height: 45px;
+}
+
+#nav-container{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-col{
+    flex-basis: 15%;
+    /* DEBUG */
+    border: 1px solid black ;
+    font-size: 18px;
+    margin-top: 10px;
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.link{
+    flex-basis:50%;
+}
+
+.login{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.nav-col > ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+   text-decoration: none;
+   color: black;
+}
+
+.link li{
+    display: flex;
+    margin:0 50px;
+}
+
+
